@@ -1,0 +1,20 @@
+package kr.or.ddit.vo.head;
+
+import java.util.Date;
+
+import lombok.Data;
+
+@Data
+public class OfficeLetterVO {
+
+	private int hdLtno;
+	private String hdLttitle;
+	private String hdLtsender;
+	private String hdLtreciever;
+	private String hdLtcontent;
+	private Date hdLtsdate;
+	private Date hdLtrdate;
+	private String tableName;
+	private String hdLtstate;
+	
+}

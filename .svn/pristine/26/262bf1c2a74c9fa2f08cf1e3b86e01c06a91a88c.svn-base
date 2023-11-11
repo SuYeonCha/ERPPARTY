@@ -1,0 +1,13 @@
+package kr.or.ddit.service.head;
+
+import java.util.List;
+
+import kr.or.ddit.vo.head.HeadPaginationInfoVO;
+import kr.or.ddit.vo.owner.OwnerVO;
+
+public interface ICounselService {
+
+	int selectCounselCount(HeadPaginationInfoVO<OwnerVO> pagingVO);
+	List<OwnerVO> selectCounselList(HeadPaginationInfoVO<OwnerVO> pagingVO);
+
+}

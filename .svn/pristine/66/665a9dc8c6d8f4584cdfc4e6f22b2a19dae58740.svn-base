@@ -1,0 +1,19 @@
+package kr.or.ddit.vo.head;
+
+import java.util.Date;
+
+import lombok.Data;
+
+@Data
+public class OpenPlanVO {
+
+	private String frcsId;
+	private String frcsName;
+	private Date insDate;
+	private Date ineDate;
+	private Date opDate;
+	private Date cDate;
+	private String fcmgHefc;
+	private String fcmgIprgst;
+	private String fcmgRemark;
+}
